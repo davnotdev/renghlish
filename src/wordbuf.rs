@@ -12,7 +12,6 @@ impl WordBuffer {
 
     pub fn append(&mut self, other: WordBuffer) {
         self.advance();
-        self.advance();
 
         self.previous_was_vowel = false;
         self.previous_was_barred = false;

@@ -5,3 +5,7 @@ edition = "2021"
 
 [[example]]
 name = "example"
+
+[[bin]]
+name = "eng2reng"
+path = "bin/eng2reng.rs"
