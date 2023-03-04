@@ -29,7 +29,7 @@ impl WordBuffer {
         self.previous_was_barred = true;
     }
 
-    pub fn constanant(&mut self, (lanes, can_go_under): (&[&str], bool)) {
+    pub fn consonant(&mut self, (lanes, can_go_under): (&[&str], bool)) {
         let mut still_barred = self.previous_was_barred;
 
         if !(can_go_under && self.previous_was_vowel) {

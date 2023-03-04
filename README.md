@@ -67,8 +67,8 @@ fn main() {
     let word_buf = WordBuffer::default();
     word_buf.vowel(vowels::vowel_qu());
     word_buf.vowel(vowels::vowel_a());
-    word_buf.constanant(roots::root_c());
-    word_buf.constanant(roots::root_k());
+    word_buf.consonant(roots::root_c());
+    word_buf.consonant(roots::root_k());
     word_buf
         .get_rows()
         .iter()
