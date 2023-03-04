@@ -19,6 +19,21 @@ Renghlish is less boring!
 
 This library simply converts your lame Latin characters into Renghlish unicode art.
 
+## Try it Out
+
+### Linux
+
+```sh
+# Fetch the file into /tmp/eng2reng.
+curl -L https://github.com/davnotdev/renghlish/releases/download/v0.0.1/eng2reng -o /tmp/eng2reng
+
+# Run it.
+chmod +x /tmp/eng2reng && /tmp/eng2reng Hello World
+
+# Remove it.
+rm /tmp/eng2reng
+```
+
 ## Usage
 
 ```rust
