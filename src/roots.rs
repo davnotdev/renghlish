@@ -47,7 +47,6 @@ pub fn root_b() -> Return {
       "│",  
       "│",  
       "│", 
-      "│",
       "┴──"],
     false,
     )
