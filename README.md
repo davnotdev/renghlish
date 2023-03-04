@@ -17,7 +17,7 @@ Renghlish is less boring!
 
 > Interested? Read more on my [blog](https://davnotdev.github.io/blog/interesting/renghlish/)!
 
-This library simply converts your lame Latin characters into Renghlish.
+This library simply converts your lame Latin characters into Renghlish unicode art.
 
 ## Usage
 
