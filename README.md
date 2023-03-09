@@ -5,12 +5,12 @@
 English is boring and so is the Latin writing system.
 
 ```plaintext
-      │╭────╮  │  │ ·   │       ·         │╭──         ┌─╮·    │ · ──╮
-     ─┼┼────┼──┼──┼─────┼      ───       ─┼┼──         │───────┼─────┼
-      │╰──  │  │  │ ╭   │       ╭         │╰── ╭       │  ·    │     │
-      │┌─┐──┤╭─╯  │─┼─╭─╯      ─┼─        │─┼──┼─      │       │┌─┐──┤
-    ╭─╯└─┘  ││  ──╯─╯ │        ─╯       ──╯─╯ ─╯       │     ╭─╯└─┘  │
-    │     ──┴┴──      ┴──                              ┴──   │     ──┴
+  │╭────╮  │  │ ·   │     ·       │╭──       ┌─╮·    │ · ──╮
+ ─┼┼────┼──┼──┼─────┼    ───     ─┼┼──       │───────┼─────┼
+  │╰──  │  │  │ ╭   │     ╭       │╰── ╭     │  ·    │     │
+  │┌─┐──┤╭─╯  │─┼─╭─╯    ─┼─      │─┼──┼─    │       │┌─┐──┤
+╭─╯└─┘  ││  ──╯─╯ │      ─╯     ──╯─╯ ─╯     │     ╭─╯└─┘  │
+│     ──┴┴──      ┴──                        ┴──   │     ──┴
 ```
 
 Renghlish is less boring!
@@ -23,19 +23,36 @@ The `eng2reng` binary can be used to just try it out.
 
 ## Try it Out
 
+> Do these binaries actually work?
+> Who knows.
+> Look, I haven't tested these.
+
 ### Windows
 
-> Sorry nothing here!
+You can [download the cli at here](https://github.com/davnotdev/renghlish/releases/download/v0.0.1/eng2reng_windows.exe).
+
+```cmd
+eng2reng_windows.exe Hello World
+```
 
 ### Macos
 
-> Sorry nothing here!
+```sh
+# Fetch the file into /tmp/eng2reng.
+curl -L https://github.com/davnotdev/renghlish/releases/download/v0.0.1/eng2reng_macos -o /tmp/eng2reng
+
+# Run it.
+chmod +x /tmp/eng2reng && /tmp/eng2reng Hello World
+
+# Remove it.
+rm /tmp/eng2reng
+```
 
 ### Linux
 
 ```sh
 # Fetch the file into /tmp/eng2reng.
-curl -L https://github.com/davnotdev/renghlish/releases/download/v0.0.1/eng2reng -o /tmp/eng2reng
+curl -L https://github.com/davnotdev/renghlish/releases/download/v0.0.1/eng2reng_linux -o /tmp/eng2reng
 
 # Run it.
 chmod +x /tmp/eng2reng && /tmp/eng2reng Hello World
@@ -80,10 +97,10 @@ fn main() {
 ## That's all
 
 ```plaintext
-      │──╮╭──      ──╮      ──╮·  ·           ──╮  │
-     ─┼──┼┼──      ──┼       ─┼──────       ────┼──┼
-      │──╯╰──      ──╯        │·  ·╮        ╮ ──╯  │
-    ╭─╯                     ──┤   ─┼─      ─┼─   ──┤
-    │  ╲╱                     │    ├─       ├─     │
-    ┴──                     ──┴    ╰╴       ╰╴     │
+    │──╮╭──    ──╮    ──╮·  ·         ──╮  │
+   ─┼──┼┼──    ──┼     ─┼──────     ────┼──┼
+    │──╯╰──    ──╯      │·  ·╮      ╮ ──╯  │
+  ╭─╯                 ──┤   ─┼─    ─┼─   ──┤
+  │  ╲╱                 │    ├─     ├─     │
+  ┴──                 ──┴    ╰╴     ╰╴     │
 ```
