@@ -23,9 +23,7 @@ The `eng2reng` binary can be used to just try it out.
 
 ## Try it Out
 
-> Do these binaries actually work?
-> Who knows.
-> Look, I haven't tested these.
+> Look, I use a macOS VM, so the macOS binary may not work.
 
 ### Windows
 
